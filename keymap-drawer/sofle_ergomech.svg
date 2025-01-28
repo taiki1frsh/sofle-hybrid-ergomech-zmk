@@ -332,7 +332,7 @@ path.combo {
 </g>
 <g transform="translate(238, 260)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">MUTE</text>
+<text x="0" y="0" class="key tap">LGUI</text>
 </g>
 <g transform="translate(294, 272)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
