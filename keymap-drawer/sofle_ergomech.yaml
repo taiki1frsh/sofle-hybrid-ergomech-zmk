@@ -1,6 +1,6 @@
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LGUI, lower, RET, SPACE, raise, RGUI, RALT, RCTRL, ESC, F4, F7, F3, F6]
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LGUI, lower, SPACE, SPACE, raise, RGUI, RALT, RCTRL, CLCK, F4, F7, F3, F6]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -33,7 +33,7 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
+  - BSPC
   - '*'
   - (
   - )
