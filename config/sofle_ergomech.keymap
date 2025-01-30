@@ -27,80 +27,80 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
+    // combos {
+    //     compatible = "zmk,combos";
 
 
-        // --- Row2: 24(TAB) + 25(A) => 37(Z) ---
-        combo_tab_a_z {
-            timeout-ms = <50>;
-            key-positions = <24 25>;
-            bindings = <&kp Z>;
-        };
+    //     // --- Row2: 24(TAB) + 25(A) => 37(Z) ---
+    //     combo_tab_a_z {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 25>;
+    //         bindings = <&kp Z>;
+    //     };
 
-        // 24(TAB) + 26(S) => 38(X)
-        combo_tab_s_x {
-            timeout-ms = <50>;
-            key-positions = <24 26>;
-            bindings = <&kp X>;
-        };
+    //     // 24(TAB) + 26(S) => 38(X)
+    //     combo_tab_s_x {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 26>;
+    //         bindings = <&kp X>;
+    //     };
 
-        // 24(TAB) + 27(D) => 39(C)
-        combo_tab_d_c {
-            timeout-ms = <50>;
-            key-positions = <24 27>;
-            bindings = <&kp C>;
-        };
+    //     // 24(TAB) + 27(D) => 39(C)
+    //     combo_tab_d_c {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 27>;
+    //         bindings = <&kp C>;
+    //     };
 
-        // 24(TAB) + 28(F) => 40(V)
-        combo_tab_f_v {
-            timeout-ms = <50>;
-            key-positions = <24 28>;
-            bindings = <&kp V>;
-        };
+    //     // 24(TAB) + 28(F) => 40(V)
+    //     combo_tab_f_v {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 28>;
+    //         bindings = <&kp V>;
+    //     };
 
-        // 24(TAB) + 29(G) => 41(B)
-        combo_tab_g_b {
-            timeout-ms = <50>;
-            key-positions = <24 29>;
-            bindings = <&kp B>;
-        };
+    //     // 24(TAB) + 29(G) => 41(B)
+    //     combo_tab_g_b {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 29>;
+    //         bindings = <&kp B>;
+    //     };
 
-        // 24(TAB) + 30(H) => 42(N)
-        combo_tab_h_n {
-            timeout-ms = <50>;
-            key-positions = <24 30>;
-            bindings = <&kp N>;
-        };
+    //     // 24(TAB) + 30(H) => 42(N)
+    //     combo_tab_h_n {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 30>;
+    //         bindings = <&kp N>;
+    //     };
 
-        // 24(TAB) + 31(J) => 43(M)
-        combo_tab_j_m {
-            timeout-ms = <50>;
-            key-positions = <24 31>;
-            bindings = <&kp M>;
-        };
+    //     // 24(TAB) + 31(J) => 43(M)
+    //     combo_tab_j_m {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 31>;
+    //         bindings = <&kp M>;
+    //     };
 
-        // 24(TAB) + 32(K) => 44(COMMA)
-        combo_tab_k_comma {
-            timeout-ms = <50>;
-            key-positions = <24 32>;
-            bindings = <&kp COMMA>;
-        };
+    //     // 24(TAB) + 32(K) => 44(COMMA)
+    //     combo_tab_k_comma {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 32>;
+    //         bindings = <&kp COMMA>;
+    //     };
 
-        // 24(TAB) + 33(L) => 45(DOT)
-        combo_tab_l_dot {
-            timeout-ms = <50>;
-            key-positions = <24 33>;
-            bindings = <&kp DOT>;
-        };
+    //     // 24(TAB) + 33(L) => 45(DOT)
+    //     combo_tab_l_dot {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 33>;
+    //         bindings = <&kp DOT>;
+    //     };
 
-        // 24(TAB) + 34(;) => 46(/)
-        combo_tab_semi_fslh {
-            timeout-ms = <50>;
-            key-positions = <24 34>;
-            bindings = <&kp FSLH>;
-        };
-    };
+    //     // 24(TAB) + 34(;) => 46(/)
+    //     combo_tab_semi_fslh {
+    //         timeout-ms = <50>;
+    //         key-positions = <24 34>;
+    //         bindings = <&kp FSLH>;
+    //     };
+    // };
 
     keymap {
         compatible = "zmk,keymap";
