@@ -1,6 +1,6 @@
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z,
-    X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LGUI, lower, SPACE, SPACE, raise, RGUI, RALT, RCTRL, CLCK, F4, F7, F3, F6]
+    KC BRID, KC BRIU, VOL DN, VOL UP, ^, '&', '*', (, RPA, RSHFT, MUTE, LGUI, LALT, LGUI, lower, SPACE, SPACE, raise, RGUI, RALT, RCTRL, CLCK, F4, F7, F3, F6]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -32,11 +32,11 @@ layers:
   - '#'
   - $
   - CLCK
-  - BSPC
-  - '&'
-  - '*'
-  - (
-  - )
+  - N
+  - M
+  - ','
+  - .
+  - /
   - '|'
   - {t: ▽, type: trans}
   - '='
@@ -92,11 +92,11 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
-  - CLCK
+  - Z
+  - X
+  - C
+  - V
+  - B
   - PG DN
   - LEFT
   - DOWN
@@ -196,24 +196,3 @@ layers:
   - C
   - D
   - E
-combos:
-- p: [24, 25]
-  k: Z
-- p: [24, 26]
-  k: X
-- p: [24, 27]
-  k: C
-- p: [24, 28]
-  k: V
-- p: [24, 29]
-  k: B
-- p: [24, 30]
-  k: N
-- p: [24, 31]
-  k: M
-- p: [24, 32]
-  k: ','
-- p: [24, 33]
-  k: .
-- p: [24, 34]
-  k: /
