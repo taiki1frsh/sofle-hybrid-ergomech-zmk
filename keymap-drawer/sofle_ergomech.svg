@@ -244,15 +244,11 @@ path.combo {
 </g>
 <g transform="translate(308, 157)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">G</tspan><tspan x="0" dy="1.2em">k</tspan>
-</text>
+<text x="0" y="0" class="key tap">G</text>
 </g>
 <g transform="translate(532, 157)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;p</tspan><tspan x="0" dy="1.2em">H</tspan>
-</text>
+<text x="0" y="0" class="key tap">H</text>
 </g>
 <g transform="translate(588, 148)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
