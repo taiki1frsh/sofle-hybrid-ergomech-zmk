@@ -1,6 +1,6 @@
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, LCTRL,
-    F1, F2, VOL DN, VOL UP, ^, '&', '*', (, ), RSHFT, MUTE, LGUI, LALT, LGUI, lower, SPACE, SPACE, raise, RGUI, RALT, RCTRL, CLCK, F4, F7, F3, F6]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G k, '&p H', J, K, L, ;, '''', LCTRL,
+    Z, X, C, V, B, N, M, ',', ., /, RSHFT, MUTE, LGUI, LALT, LGUI, SPACE, RET, SACE, '&kPp RGUI', LCTRL, RALT, RCTRL, CLCK, F4, F7, F3, F6]
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -54,7 +54,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,10 +184,10 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
   - ''
   - ''
   - ''
