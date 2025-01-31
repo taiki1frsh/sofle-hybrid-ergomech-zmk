@@ -30,7 +30,7 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - CLCK
   - CLCK
   - N
   - M
@@ -41,8 +41,8 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - +
-  - '{'
+  - VOL DN
+  - VOL UP
   - '}'
   - '['
   - ']'
